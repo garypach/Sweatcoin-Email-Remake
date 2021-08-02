@@ -37,6 +37,12 @@
             .download{
                 width: 130px !important;
             }
+            .wallet-btn{
+                padding: 10px 190px !important;
+            }
+            .mid{
+                line-height: 0 !important;
+            }
         }
     </style>
 </head>
@@ -58,6 +64,7 @@
                border: 0;
                padding:10px;
                border-spacing:0;
+               border-collapse: collapse;
                ">
                     <!--start header row-->
                     <tr>
@@ -68,423 +75,471 @@
                     text-align: center;
                     ">
                             <img style="
-                            width: 95%;" src="https://media.giphy.com/media/VZ0l549vY2oeGG4hu7/giphy.gif">
+                            width: 100%;" src="https://media.giphy.com/media/VZ0l549vY2oeGG4hu7/giphy.gif">
                         </td>
                     </tr>
                     <tr>
                         <td style="
                     border: 0;
-                    padding:0 30px;
+                    padding:0px 30px;
                     border-spacing:0;
                     text-align: left;
                     ">
-                           <h1 style="color:#012256">Gary, here’s your weekly Sweatcoin payslip</h1>
+                        <p style="color: #012256; font-size: 2.3rem; font-weight: 700;">Gary, here’s your weekly Sweatcoin payslip</p>
                         </td>
                     </tr>
                     <!--end header row-->
                     <!--start mid container-->
                     <tr>
-                        
-                        <td class= "row-container">
-                            <table style=" width:100%;
+                        <td>
+                            <table class="mid" style=" width:100%;
                             border: 0px;
-                            padding:5px;
+                            padding:10px 10px 40px 10px;
                             border-spacing:0;
-                            text-align: left;
                             border: 1px solid #012256; border-radius: 25px;
                             "
                             >
-                                <!--start date row-->
+                            <!--start date row-->
+                            <tr>
+                                <td>
                                 <!--left-->
                                 <tr>
-                                <td class="left">
-                                    <table style="
-                        width:100%;
-                        border: 0px;
-                        padding:10px;
-                        border-spacing:0;
-                        text-align: left;
-                        ">
-                                       
-                                        <tr> 
-                                            <td class= "date" style="line-height: 18px;">
-                                            <div><h4 style="color: #012256;">20 JUL – 27 JUL 2021</h4></div>
-                                            <div><h4 style="color: #012256;">garypac (GARY)</h4></div>
-                                            <div><h4 style="color: #012256;">RECEIPT #40797767133</h4></div>
-                                            </td>
-                                        </tr>
-                                        
-                                    </table>
+                                    <td class="left">
+                                        <table style="
+                            width:100%;
+                            border: 0px;
+                            padding:10px;
+                            border-spacing:0;
+                            text-align: left;
+                            ">
+                                           
+                                            <tr> 
+                                                <td class= "date" style="line-height: 18px;">
+                                                <div><h4 style="color: #012256;">20 JUL – 27 JUL 2021</h4></div>
+                                                <div><h4 style="color: #012256;">garypac (GARY)</h4></div>
+                                                <div><h4 style="color: #012256;">RECEIPT #40797767133</h4></div>
+                                                </td>
+                                            </tr>
+                                            
+                                        </table>
+                                    </td>
+                                    <!--right-->
+                                    
+                                    <td class="right" style="padding-left:115px;">
+                                        <span style="background: #5c5c5c;
+                                        color: #fff;
+                                        padding: 10px 24px;
+                                        border-radius: 50%;
+                                        font-weight: 900;
+                                        font-size: 40px;">G</span> 
+                                    </td>
+                                    </tr>
                                 </td>
-                                <!--right-->
-                                
-                                <td class="right" style="padding-left:115px;">
-                                    <span style="background: #5c5c5c;
-                                    color: #fff;
-                                    padding: 10px 24px;
-                                    border-radius: 50%;
-                                    font-weight: 900;
-                                    font-size: 40px;">G</span> 
-                                </td>
-                                </tr>
-                                <!--End date row-->
+                            </tr>
+                            <!--End date row-->
                                 <!--start tot steps row-->
                                 <tr>
-                                    <td class="left">
-                                        <table style="
-                            width:100%;
-                            border: 0px;
-                            padding:10px;
-                            border-spacing:0;
-                            text-align: left;
-                            
-                            ">
-                                            <tr> 
-                                                <td>
-                                                    <p style="font-size:1.1rem; color: #012256;">TOTAL STEPS</p>
-                                                </td>
-                                                
-                                            </tr>
-                                        </table>
-                                    </td>
-                                    <!--right-->
-                                    <td class="right" style="padding-left:0px;">
-                                        <table style="
-                                        width:100%;
-                                        border: 0px;
-                                        padding:10px;
-                                        border-spacing:0;
-                                        text-align: right;
-                                        ">
+                                    <td>
                                         <tr>
-                                            <td>
-                                                <p style="font-size: 2rem; font-weight: 700; color: #012256;">17,378</p>
+                                            <td class="left">
+                                                <table style="
+                                    width:100%;
+                                    border: 0px;
+                                    padding:10px;
+                                    border-spacing:0;
+                                    text-align: left;
+                                    
+                                    ">
+                                                    <tr> 
+                                                        <td>
+                                                            <p style="font-size:1.1rem; color: #012256;">TOTAL STEPS</p>
+                                                        </td>
+                                                        
+                                                    </tr>
+                                                </table>
                                             </td>
-                                            <td>
-                                                <h2 style="padding-left:8px; color: #012256;">steps</h2>
+                                            <!--right-->
+                                            <td class="right" style="padding-left:0px;">
+                                                <table style="
+                                                width:100%;
+                                                border: 0px;
+                                                padding:10px;
+                                                border-spacing:0;
+                                                text-align: right;
+                                                ">
+                                                <tr>
+                                                    <td>
+                                                        <p style="font-size: 2rem; font-weight: 700; color: #012256;">17,378</p>
+                                                    </td>
+                                                    <td>
+                                                        <h2 style="padding-left:8px; color: #012256;">steps</h2>
+                                                    </td>
+                                                </tr>
+                                                </table>
+                                                
                                             </td>
-                                        </tr>
-                                        </table>
-                                        
+                                            </tr>
                                     </td>
-                                    </tr>
+                                </tr>
                                 <!--end tot steps row-->
+
                                 <!--start vs before row-->
                                 <tr>
-                                    <td class="left">
-                                        <table style="
-                            width:100%;
-                            border: 0px;
-                            padding:10px;
-                            border-spacing:0;
-                            text-align: left;
-                            
-                            ">
-                                            <tr> 
-                                                <td>
-                                                    <p id="before" style="font-size: 1rem; color: #012256;">vs BEFORE SWEATCOIN</p>
-                                                </td>
-                                                
-                                            </tr>
-                                        </table>
-                                    </td>
-                                    <!--right-->
-                                    <td class="right" style="padding-left:0px;">
-                                        <table style="
-                                        width:100%;
-                                        border: 0px;
-                                        padding:10px;
-                                        border-spacing:0;
-                                        text-align: right;
-                                        ">
+                                    <td>
                                         <tr>
-                                            <td>
-                                                <p style="font-size: 1.9rem; font-weight: 700; color: #012256;">-6%</p>
+                                            <td class="left">
+                                                <table style="
+                                    width:100%;
+                                    border: 0px;
+                                    padding:10px;
+                                    border-spacing:0;
+                                    text-align: left;
+                                    
+                                    ">
+                                                    <tr> 
+                                                        <td>
+                                                            <p id="before" style="font-size: 1rem; color: #012256;">vs BEFORE SWEATCOIN</p>
+                                                        </td>
+                                                        
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <!--right-->
+                                            <td class="right" style="padding-left:0px;">
+                                                <table style="
+                                                width:100%;
+                                                border: 0px;
+                                                padding:10px;
+                                                border-spacing:0;
+                                                text-align: right;
+                                                ">
+                                                <tr>
+                                                    <td>
+                                                        <p style="font-size: 1.9rem; font-weight: 700; color: #012256;">-6%</p>
+                                                    </td>
+                                                </tr>
+                                                </table>
+                                                
                                             </td>
                                         </tr>
-                                        </table>
-                                        
                                     </td>
-                                    </tr>
+                                </tr>
                                 <!--end vs before row-->
                                 <!--start vs week row-->
                                 <tr>
-                                    <td class="left">
-                                        <table style="
-                            width:100%;
-                            border: 0px;
-                            padding:10px;
-                            border-spacing:0;
-                            text-align: left;
-                            
-                            ">
-                                            <tr> 
-                                                <td>
-                                                    <p id="before" style="font-size: 1.0rem; color: #012256;">vs PREVIOUS WEEK</p>
-                                                </td>
-                                                
-                                            </tr>
-                                        </table>
-                                    </td>
-                                    <!--right-->
-                                    <td class="right" style="padding-left:0px;">
-                                        <table style="
-                                        width:100%;
-                                        border: 0px;
-                                        padding:10px;
-                                        border-spacing:0;
-                                        text-align: right;
-                                        ">
+                                    <td>
                                         <tr>
-                                            <td>
-                                                <p style="font-size: 1.9rem; font-weight: 700; color: #012256;">-1%</p>
+                                            <td class="left">
+                                                <table style="
+                                    width:100%;
+                                    border: 0px;
+                                    padding:10px;
+                                    border-spacing:0;
+                                    text-align: left;
+                                    
+                                    ">
+                                                    <tr> 
+                                                        <td>
+                                                            <p id="before" style="font-size: 1.0rem; color: #012256;">vs PREVIOUS WEEK</p>
+                                                        </td>
+                                                        
+                                                    </tr>
+                                                </table>
                                             </td>
-                                        </tr>
-                                        </table>
-                                        
+                                            <!--right-->
+                                            <td class="right" style="padding-left:0px;">
+                                                <table style="
+                                                width:100%;
+                                                border: 0px;
+                                                padding:10px;
+                                                border-spacing:0;
+                                                text-align: right;
+                                                ">
+                                                <tr>
+                                                    <td>
+                                                        <p style="font-size: 1.9rem; font-weight: 700; color: #012256;">-1%</p>
+                                                    </td>
+                                                </tr>
+                                                </table>
+                                                
+                                            </td>
+                                            </tr>
                                     </td>
-                                    </tr>
+                                </tr>
                                 <!--end vs week row-->
                                 <!--start EARNED FROM row-->
                                 <tr>
-                                    <td class="left">
-                                        <table style="
-                            width:100%;
-                            border: 0px;
-                            padding:10px;
-                            border-spacing:0;
-                            text-align: left;
-                            
-                            ">
-                                            <tr> 
-                                                <td>
-                                                    <p id="before" style="font-size: 1.0rem; color: #012256;">EARNED FROM STEPS</p>
-                                                </td>
-                                                
-                                            </tr>
-                                        </table>
-                                    </td>
-                                    <!--right-->
-                                    <td class="right" style="padding-left:0px;">
-                                        <table style="
-                                        width:100%;
-                                        border: 0px;
-                                        padding:10px;
-                                        border-spacing:0;
-                                        text-align: right;
-                                        ">
+                                    <td>
                                         <tr>
-                                            <td>
-                                                <p style="font-size: 1.9rem; font-weight: 700; color: #012256;">16.09 SWC</p>
+                                            <td class="left">
+                                                <table style="
+                                    width:100%;
+                                    border: 0px;
+                                    padding:10px;
+                                    border-spacing:0;
+                                    text-align: left;
+                                    
+                                    ">
+                                                    <tr> 
+                                                        <td>
+                                                            <p id="before" style="font-size: 1.0rem; color: #012256;">EARNED FROM STEPS</p>
+                                                        </td>
+                                                        
+                                                    </tr>
+                                                </table>
                                             </td>
-                                        </tr>
-                                        </table>
-                                        
+                                            <!--right-->
+                                            <td class="right" style="padding-left:0px;">
+                                                <table style="
+                                                width:100%;
+                                                border: 0px;
+                                                padding:10px;
+                                                border-spacing:0;
+                                                text-align: right;
+                                                ">
+                                                <tr>
+                                                    <td>
+                                                        <p style="font-size: 1.9rem; font-weight: 700; color: #012256;">16.09 SWC</p>
+                                                    </td>
+                                                </tr>
+                                                </table>
+                                                
+                                            </td>
+                                            </tr>
                                     </td>
-                                    </tr>
+                                </tr>
                                 <!--end EARNED FROM row-->
                                  <!--start rank row-->
-                                 
                                  <tr>
-                                    <td class="left">
-                                        <table style="
-                            width:100%;
-                            border: 0px;
-                            padding:10px;
-                            border-spacing:0;
-                            text-align: left;
-                            ">
-                                            <tr> 
-                                                <td>
-                                                    <p id="before" style="font-size: 1.0rem; color: #012256;">RANK</p>
-                                                </td>
-                                                
-                                            </tr>
-                                        </table>
-                                    </td>
-                                    <!--right-->
-                                    <td class="right" style="padding-left:0px;">
-                                        <table style="
-                                        width:100%;
-                                        border: 0px;
-                                        padding:10px;
-                                        border-spacing:0;
-                                        text-align: right;
-                                        ">
+                                     <td>
                                         <tr>
-                                            <td>
-                                                <p style="font-size: 1.9rem; font-weight: 700; color: #012256;">TOP 50%</p>
+                                            <td class="left">
+                                                <table style="
+                                    width:100%;
+                                    border: 0px;
+                                    padding:10px;
+                                    border-spacing:0;
+                                    text-align: left;
+                                    ">
+                                                    <tr> 
+                                                        <td>
+                                                            <p id="before" style="font-size: 1.0rem; color: #012256;">RANK</p>
+                                                        </td>
+                                                        
+                                                    </tr>
+                                                </table>
                                             </td>
-                                        </tr>
-                                        </table>
-                                        
-                                    </td>
-                                    </tr>
-                                
+                                            <!--right-->
+                                            <td class="right" style="padding-left:0px;">
+                                                <table style="
+                                                width:100%;
+                                                border: 0px;
+                                                padding:10px;
+                                                border-spacing:0;
+                                                text-align: right;
+                                                ">
+                                                <tr>
+                                                    <td>
+                                                        <p style="font-size: 1.9rem; font-weight: 700; color: #012256;">TOP 50%</p>
+                                                    </td>
+                                                </tr>
+                                                </table>
+                                                
+                                            </td>
+                                            </tr>
+                                     </td>
+                                 </tr>
                                 <!--end rank row-->
                                 <!--start daily bonus row-->
-                                 
                                 <tr>
-                                    <td class="left">
-                                        <table style="
-                            width:100%;
-                            border: 0px;
-                            padding:10px;
-                            border-spacing:0;
-                            text-align: left;
-                            ">
-                                            <tr> 
-                                                <td>
-                                                    <p id="before" style="font-size: 1.0rem; color: #012256;">EARNED FROM DAILY BONUS</p>
-                                                </td>
-                                                
-                                            </tr>
-                                        </table>
-                                    </td>
-                                    <!--right-->
-                                    <td class="right" style="padding-left:0px;">
-                                        <table style="
-                                        width:100%;
-                                        border: 0px;
-                                        padding:10px;
-                                        border-spacing:0;
-                                        text-align: right;
-                                        line-height: 12px;
-                                        ">
+                                    <td>
                                         <tr>
-                                            <td>
-                                                <p style="font-size: 1.9rem; font-weight: 700; color: #c3c3c3;">0 SWC</p>
-                                                <a href="#" style="color: #012256; text-decoration: none; border: 1px solid #012256; padding: 6px 11px; border-radius: 8px; font-size: 12px;">Get Daily Bonus</a>
+                                            <td class="left">
+                                                <table style="
+                                    width:100%;
+                                    border: 0px;
+                                    padding:10px;
+                                    border-spacing:0;
+                                    text-align: left;
+                                    ">
+                                                    <tr> 
+                                                        <td>
+                                                            <p id="before" style="font-size: 1.0rem; color: #012256;">EARNED FROM DAILY BONUS</p>
+                                                        </td>
+                                                        
+                                                    </tr>
+                                                </table>
                                             </td>
-                                        </tr>
-                                        </table>
-                                        
+                                            <!--right-->
+                                            <td class="right" style="padding-left:0px;">
+                                                <table style="
+                                                width:100%;
+                                                border: 0px;
+                                                padding:10px;
+                                                border-spacing:0;
+                                                text-align: right;
+                                                line-height: 12px;
+                                                ">
+                                                <tr>
+                                                    <td>
+                                                        <p style="font-size: 1.9rem; font-weight: 700; color: #c3c3c3;">0 SWC</p>
+                                                        <a href="#" style="color: #012256; text-decoration: none; border: 1px solid #012256; padding: 6px 11px; border-radius: 8px; font-size: 12px;">Get Daily Bonus</a>
+                                                    </td>
+                                                </tr>
+                                                </table>
+                                                
+                                            </td>
+                                            </tr>
                                     </td>
-                                    </tr>
-                                
+                                </tr>
                                 <!--end daily bonus row-->
                                 <!--start earned from invites row-->
-                                 
-                                <tr>
-                                    <td class="left">
-                                        <table style="
-                            width:100%;
-                            border: 0px;
-                            padding:10px;
-                            border-spacing:0;
-                            text-align: left;
-                            ">
-                                            <tr> 
-                                                <td>
-                                                    <p id="before" style=" color: #012256; font-size: 1.0rem;">EARNED FROM INVITES</p>
-                                                </td>
-                                                
-                                            </tr>
-                                        </table>
-                                    </td>
-                                    <!--right-->
-                                    <td class="right" style="padding-left:0px;">
-                                        <table style="
-                                        width:100%;
-                                        border: 0px;
-                                        padding:10px;
-                                        border-spacing:0;
-                                        text-align: right;
-                                        line-height: 12px;
-                                        ">
+                                 <tr>
+                                     <td>
                                         <tr>
-                                            <td>
-                                                <p style="color: #c3c3c3; font-size: 1.9rem; font-weight: 700;">0 SWC</p>
-                                                <a href="#" style="color: #012256; text-decoration: none; border: 1px solid #012256; padding: 6px 11px; border-radius: 8px; font-size: 12px;">Invite friends</a>
+                                            <td class="left">
+                                                <table style="
+                                    width:100%;
+                                    border: 0px;
+                                    padding:10px;
+                                    border-spacing:0;
+                                    text-align: left;
+                                    ">
+                                                    <tr> 
+                                                        <td>
+                                                            <p id="before" style=" color: #012256; font-size: 1.0rem;">EARNED FROM INVITES</p>
+                                                        </td>
+                                                        
+                                                    </tr>
+                                                </table>
                                             </td>
-                                        </tr>
-                                        </table>
-                                        
-                                    </td>
-                                    </tr>
-                                
+                                            <!--right-->
+                                            <td class="right" style="padding-left:0px;">
+                                                <table style="
+                                                width:100%;
+                                                border: 0px;
+                                                padding:10px;
+                                                border-spacing:0;
+                                                text-align: right;
+                                                line-height: 12px;
+                                                ">
+                                                <tr>
+                                                    <td>
+                                                        <p style="color: #c3c3c3; font-size: 1.9rem; font-weight: 700;">0 SWC</p>
+                                                        <a href="#" style="color: #012256; text-decoration: none; border: 1px solid #012256; padding: 6px 11px; border-radius: 8px; font-size: 12px;">Invite friends</a>
+                                                    </td>
+                                                </tr>
+                                                </table>
+                                                
+                                            </td>
+                                            </tr>
+                                     </td>
+                                 </tr>
                                 <!--end EARNED FROM INVITES row-->
                                 <!--start EARNED FROM DAILY BOOST row-->
-                                 
-                                <tr>
-                                    <td class="left">
-                                        <table style="
-                            width:100%;
-                            border: 0px;
-                            padding:10px;
-                            border-spacing:0;
-                            text-align: left;
-                            ">
-                                            <tr> 
-                                                <td>
-                                                    <p id="before" style="color: #012256; font-size: 1.0rem;">EARNED FROM DAILY BOOST</p>
-                                                </td>
-                                                
-                                            </tr>
-                                        </table>
-                                    </td>
-                                    <!--right-->
-                                    <td class="right" style="padding-left:0px;">
-                                        <table style="
-                                        width:100%;
-                                        border: 0px;
-                                        padding:10px;
-                                        border-spacing:0;
-                                        text-align: right;
-                                        line-height: 12px;
-                                        ">
+                                 <tr>
+                                     <td>
                                         <tr>
-                                            <td>
-                                                <p style="color: #c3c3c3; font-size: 1.9rem; font-weight: 700;">0 SWC</p>
-                                                <a href="#" style="color: #012256; text-decoration: none; border: 1px solid #012256; padding: 6px 11px; border-radius: 8px; font-size: 12px;">Open Boost</a>
+                                            <td class="left">
+                                                <table style="
+                                    width:100%;
+                                    border: 0px;
+                                    padding:10px;
+                                    border-spacing:0;
+                                    text-align: left;
+                                    ">
+                                                    <tr> 
+                                                        <td>
+                                                            <p id="before" style="color: #012256; font-size: 1.0rem;">EARNED FROM DAILY BOOST</p>
+                                                        </td>
+                                                        
+                                                    </tr>
+                                                </table>
                                             </td>
-                                        </tr>
-                                        </table>
-                                        
-                                    </td>
-                                    </tr>
-                                
+                                            <!--right-->
+                                            <td class="right" style="padding-left:0px;">
+                                                <table style="
+                                                width:100%;
+                                                border: 0px;
+                                                padding:10px;
+                                                border-spacing:0;
+                                                text-align: right;
+                                                line-height: 12px;
+                                                ">
+                                                <tr>
+                                                    <td>
+                                                        <p style="color: #c3c3c3; font-size: 1.9rem; font-weight: 700;">0 SWC</p>
+                                                        <a href="#" style="color: #012256; text-decoration: none; border: 1px solid #012256; padding: 6px 11px; border-radius: 8px; font-size: 12px;">Open Boost</a>
+                                                    </td>
+                                                </tr>
+                                                </table>
+                                                
+                                            </td>
+                                            </tr>
+                                     </td>
+                                 </tr>
                                 <!--end EARNED FROM DAILY BOOST row-->
                                 <!--start TOTAL SWEATCOINS EARNED row-->
-                                 
-                                <tr>
-                                    <td class="left">
-                                        <table style="
-                            width:100%;
-                            border: 0px;
-                            padding:10px;
-                            border-spacing:0;
-                            text-align: left;
-                            ">
-                                            <tr> 
-                                                <td>
-                                                    <p id="before" style="color: #012256; font-size: 1.0rem;">TOTAL SWEATCOINS EARNED</p>
-                                                </td>
+                                 <tr>
+                                     <td>
+                                        <tr>
+                                            <td class="left">
+                                                <table style="
+                                    width:100%;
+                                    border: 0px;
+                                    padding:10px;
+                                    border-spacing:0;
+                                    text-align: left;
+                                    ">
+                                                    <tr> 
+                                                        <td>
+                                                            <p id="before" style="color: #012256; font-size: 1.0rem;">TOTAL SWEATCOINS EARNED</p>
+                                                        </td>
+                                                        
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <!--right-->
+                                            <td class="right" style="padding-left:0px;">
+                                                <table style="
+                                                width:100%;
+                                                border: 0px;
+                                                padding:10px;
+                                                border-spacing:0;
+                                                text-align: right;
+                                                ">
+                                                <tr>
+                                                    <td>
+                                                        <p style="color: #012256; font-size: 1.9rem; font-weight: 700;">16.09 SWC</p>
+                                                    </td>
+                                                </tr>
+                                                </table>
                                                 
+                                            </td>
                                             </tr>
-                                        </table>
-                                    </td>
-                                    <!--right-->
-                                    <td class="right" style="padding-left:0px;">
-                                        <table style="
+                                     </td>
+                                 </tr>
+                                <!--end TOTAL SWEATCOINS EARNED row-->
+                                <tr>
+                                    <td colspan="2">
+                                        <table style=" 
                                         width:100%;
                                         border: 0px;
-                                        padding:10px;
-                                        border-spacing:0;
-                                        text-align: right;
-                                        ">
+                                        padding:5px;
+                                        padding-top: 50px;
+                                        border-spacing:0px;"
+                                        >
                                         <tr>
-                                            <td>
-                                                <p style="color: #012256; font-size: 1.9rem; font-weight: 700;">16.09 SWC</p>
-                                            </td>
+                                            <th colspan="2">
+                                                <a href ="#" class="wallet-btn" style=" border: 1px solid #012256; border-radius:14px; background:#012256; text-decoration:none; color: #fff; font-size: 1.1rem; font-weight: 700; padding: 10px 70px;">Open your wallet</a>
+                                            </th>
                                         </tr>
-                                        </table>
-                                        
+
+                                       
                                     </td>
-                                    </tr>
-                                
-                                <!--end TOTAL SWEATCOINS EARNED row-->
+                                </tr>
                             </table>
+                           
                         </td>
                     </tr>
                     <!--end mid container-->
@@ -499,7 +554,7 @@
         border-collapse: collapse;
         line-height: 40px;
         ">
-           <p style="color: #012256; font-size: 2.4rem; font-weight: 700;">Keep up the great work, we told you It Pays To Walk!</p>
+           <p style="color: #012256; font-size: 2.3rem; font-weight: 700;">Keep up the great work, we told you It Pays To Walk!</p>
 
             </td>
         </tr>
